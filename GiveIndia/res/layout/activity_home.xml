@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout android:layout_width="wrap_content"
+    				  android:layout_height="wrap_content"
+					  android:orientation="vertical">
+
+            <ImageView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/giveindia_logo" />
+           
+            
+            <TextView android:id="@+id/textView2"
+                	  android:layout_width="wrap_content"
+                	  android:layout_height="wrap_content"
+                	  android:layout_gravity="center"
+                	  android:textSize="26sp"
+   					  android:textStyle="bold"
+                	  android:text="Give India Foundation"/>
+            
+           	<ImageView android:id="@+id/imageview"
+       	    		 android:layout_width="fill_parent"
+                	 android:layout_height="wrap_content"
+                	 android:layout_gravity="center"
+                	 android:layout_marginTop="20dp"
+                	 />
+           	
+            <TextView android:id="@+id/textView4"
+                	  android:layout_width="wrap_content"
+                	  android:layout_height="wrap_content"
+                	  android:padding="1dp"
+                	  android:layout_gravity="center_vertical"
+                	  android:layout_marginTop="10dp"
+                	  android:layout_marginBottom="10dp"
+                	  android:text="\n\tWe connect individuals with 150+ grassroot NGOs working for the poor in India. All organizations have been pre-screened by us so that you can trust that they will use your donation correctly. By helping you donate to these charities online, we ensure that your giving is efficient and impactful. We guarantee that 90% of your donation reaches the NGO you chose."
+             />
+            
+            <TextView android:id="@+id/textView5"
+                	  android:layout_width="wrap_content"
+                	  android:layout_height="wrap_content"
+                	  android:layout_gravity="center"
+                	  android:textStyle="bold"
+                	  android:text="Live Feeds:"/>
+            <ListView
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/feedview"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true" >
+   </ListView>
+                        
+        </LinearLayout>
+            
+    </ScrollView>
+    
+    
+</LinearLayout>

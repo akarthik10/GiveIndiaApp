@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".NGOActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="20px"
+        android:id="@+id/ngoname"
+        android:text="Name" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_centerHorizontal="true"
+    
+        android:id="@+id/ngoaddr"
+        android:text="Address" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      android:layout_marginTop="20px"
+        android:id="@+id/ngocause"
+        android:text="Cause" />
+    
+    <Button android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp" 
+        android:text=" Recommend to a friend"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
